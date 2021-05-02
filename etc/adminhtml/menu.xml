@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Bananacode_GreenPay::greenpay" title="GreenPay" module="Bananacode_GreenPay" sortOrder="40" resource="Bananacode_GreenPay::greenpay" />
+        <add id="Bananacode_GreenPay::split_manage" title="Split Partners" module="Bananacode_GreenPay" sortOrder="10" action="bananacode_greenpay/split" resource="Bananacode_GreenPay::split_manage"  parent="Bananacode_GreenPay::greenpay" />
+    </menu>
+</config>
