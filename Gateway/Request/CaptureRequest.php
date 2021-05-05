@@ -5,7 +5,7 @@
  */
 namespace Bananacode\GreenPay\Gateway\Request;
 
-use Magento\Braintree\Gateway\SubjectReader;
+use Magento\Payment\Gateway\Helper\SubjectReader;
 use Magento\Payment\Gateway\ConfigInterface;
 use Magento\Payment\Gateway\Data\PaymentDataObjectInterface;
 use Magento\Payment\Gateway\Request\BuilderInterface;
